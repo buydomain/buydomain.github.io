@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+## The following premium domains are for sale. 
 
-You can use the [editor on GitHub](https://github.com/buydomain/buydomain.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### First come, first serve.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Contact: 15117232@qq.com
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/buydomain/buydomain.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| **Domain name** | **Price** |
+ |
+| --- | --- | --- |
+| NEARBYOK.COM | $5,999 |
+ |
+| nearbyok.info | $300 |
+ |
+| NEARBYOK.NET | $3,999 |
+ |
+| NEARBYOK.ORG | $2,999 |
+ |
+| NEARBYUP.COM | $4,999 |
+ |
+| PEEROK.NET | $20,000 |
+ |
+| peeruu.com | $500 |
+ |
+| PLOTOK.COM | $29,999 |
+ |
+| sitenear.info | $300 |
+ |
+| sitenear.net | $2,500 |
+ |
+| sitenear.org | $1,500 |
+ |
+| viewermap.cn | $200 |
+ |
+| VIEWERMAP.COM | $1,999 |
+ |
+| viewermap.net | $300 |
+ |
+| VIEWEROK.COM | $1,999 |
+ |
+| viewerok.info | $300 |
+ |
+| VIEWEROK.NET | $1,000 |
+ |
+| VIEWEROK.ORG | $1,000 |
+ |
+| VIEWERUP.COM | $3,999 |
+ |
+| yiqieso.com (一切搜) | $300 |
+ |
+| yiqiesou.com (一切搜) | $300 |
+ |
+| yiyisou.cn (一一搜) | $500 |
+ |
+| yiyisou.com (一一搜)  | $500 |
+ |
+| yiyisou.com.cn (一一搜) | $300 |
+ |
+| yiyisou.net (一一搜) | $200 |
+ |
+ | DAIYAN8.COM (代言吧) | $5,999 |
+ |
+| diandianso.com (点点搜) | $200 |
+ |
+| diandiso.com (点滴搜) | $200 |
+ |
+| diandisou.com (点滴搜) | $300 |
+ |
+| QIXINGSO.COM (七星搜) | $3,999 |
+ |
+| QIXINGSOU.COM (七星搜) | $3,999 |
+ |
+| SOULAISOUQU.COM (搜来搜去) | $3,999 |
+ |
