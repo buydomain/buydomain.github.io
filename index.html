@@ -1,74 +1,550 @@
-### The following premium domains are for sale. 
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>index.html</title>
+   <style>
+body {
+  background-color: #ECECEC;
+  color: #444444;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto';
+}
+.left-underline {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.left-underline:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #ECECEC;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.left-underline:hover:before, .left-underline:focus:before, .left-underline:active:before {
+  right: 0;
+}
+div.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ee6e73;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 6px 0px rgba(50, 50, 50, 0.75);
+  z-index: 9999999;
+}
+div.navbar > ul.navbar-container {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  overflow: hidden;
+}
+div.navbar > ul > li.nav-item {
+  float: right;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+div.navbar > ul > li.active {
+  background-color: rgba(0, 0, 0, 0.18);
+}
+div.navbar > ul > li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+a.nav-button {
+  font-family: 'Roboto';
+  text-decoration: none;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(228, 241, 254, 1);
+  transition: all 0.5s ease;
+}
+a.nav-button:hover {
+  text-decoration: none;
+}
+li.active > a.nav-button {
+  cursor: default;
+}
+.brand-logo {
+  float: left;
+  cursor: default;
+}
+.parallax {
+  height: 70vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.parallax.p1 {
+  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-70374.jpg) no-repeat fixed 50% 0;
+  background-size: cover;
+  color: #fff;
+}
+.parallax.p2 {
+  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-126549.jpg) no-repeat fixed 50% 0;
+  background-size: cover;
+  color: #fff;
+}
+.parallax.p3 {
+  background: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-95766.jpg) no-repeat fixed 70% 0;
+  background-size: cover;
+  color: #fff;
+}
+.parallax-text {
+  width: 24em;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  border: .5em solid #fff;
+  margin-left: -10%;
+  padding: 2em 0;
+  text-align: center;
+  z-index: 999;
+}
+.parallax > div.blur-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} 
+hgroup{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  border: 5px solid #fff;
+  padding: .5em 3em;
+  background-color: rgba(0,0,0,.2);
+  z-index: 2;
+}
+.row {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 150px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row > .col-3 {
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+footer {
+  width: 100%;
+  padding-top: 20px;
+  display: block;
+  background-color: #ee6e73;
+}
+.footer-copyright {
+  font-weight: 300;
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+.container {
+  width: 85%;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+footer p {
+  border-left: 3px solid #ffcdd2;
+  padding-left: 15px;
+  text-indent: 20px;
+  color: #ececec;
+}
 
-#### First come, first serve.
 
-Contact: 15117232@qq.com
-
-
-| **Domain name** | **Price** |
- |
-| --- | --- | --- |
-| NEARBYOK.COM | $5,999 |
- |
-| nearbyok.info | $300 |
- |
-| NEARBYOK.NET | $3,999 |
- |
-| NEARBYOK.ORG | $2,999 |
- |
-| NEARBYUP.COM | $4,999 |
- |
-| PEEROK.NET | $20,000 |
- |
-| peeruu.com | $500 |
- |
-| PLOTOK.COM | $29,999 |
- |
-| sitenear.info | $300 |
- |
-| sitenear.net | $2,500 |
- |
-| sitenear.org | $1,500 |
- |
-| viewermap.cn | $200 |
- |
-| VIEWERMAP.COM | $1,999 |
- |
-| viewermap.net | $300 |
- |
-| VIEWEROK.COM | $1,999 |
- |
-| viewerok.info | $300 |
- |
-| VIEWEROK.NET | $1,000 |
- |
-| VIEWEROK.ORG | $1,000 |
- |
-| VIEWERUP.COM | $3,999 |
- |
-| yiqieso.com (一切搜) | $300 |
- |
-| yiqiesou.com (一切搜) | $300 |
- |
-| yiyisou.cn (一一搜) | $500 |
- |
-| yiyisou.com (一一搜)  | $500 |
- |
-| yiyisou.com.cn (一一搜) | $300 |
- |
-| yiyisou.net (一一搜) | $200 |
- |
- | DAIYAN8.COM (代言吧) | $5,999 |
- |
-| diandianso.com (点点搜) | $200 |
- |
-| diandiso.com (点滴搜) | $200 |
- |
-| diandisou.com (点滴搜) | $300 |
- |
-| QIXINGSO.COM (七星搜) | $3,999 |
- |
-| QIXINGSOU.COM (七星搜) | $3,999 |
- |
-| SOULAISOUQU.COM (搜来搜去) | $3,999 |
- |
+/* Blank lines for ease and view */
+/* */
+</style>
+      
+  </head>
+  <body>
+    <h3 id="the-following-premium-domains-are-for-sale">The following premium domains are for sale.</h3>
+    <h4 id="first-come-first-serve">First come, first serve.</h4>
+    <p><u>Contact: 15117232@qq.com</u></p>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <strong>Domain name</strong>
+          </th>
+          <th>
+            <strong>Price</strong>
+          </th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>---</td>
+          <td>---</td>
+          <td>---</td>
+        </tr>
+        <tr>
+          <td>NEARBYOK.COM</td>
+          <td>$5,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>nearbyok.info</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>NEARBYOK.NET</td>
+          <td>$3,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>NEARBYOK.ORG</td>
+          <td>$2,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>NEARBYUP.COM</td>
+          <td>$4,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>PEEROK.NET</td>
+          <td>$20,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>peeruu.com</td>
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>PLOTOK.COM</td>
+          <td>$29,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>sitenear.info</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>sitenear.net</td>
+          <td>$2,500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>sitenear.org</td>
+          <td>$1,500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>viewermap.cn</td>
+          <td>$200</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>VIEWERMAP.COM</td>
+          <td>$1,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>viewermap.net</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>VIEWEROK.COM</td>
+          <td>$1,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>viewerok.info</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>VIEWEROK.NET</td>
+          <td>$1,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>VIEWEROK.ORG</td>
+          <td>$1,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>VIEWERUP.COM</td>
+          <td>$3,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiqieso.com (一切搜)</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiqiesou.com (一切搜)</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiyisou.cn (一一搜)</td>
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiyisou.com (一一搜)</td>
+          <td>$500</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiyisou.com.cn (一一搜)</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>yiyisou.net (一一搜)</td>
+          <td>$200</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>DAIYAN8.COM (代言吧)</td>
+          <td>$5,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>diandianso.com (点点搜)</td>
+          <td>$200</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>diandiso.com (点滴搜)</td>
+          <td>$200</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>diandisou.com (点滴搜)</td>
+          <td>$300</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>QIXINGSO.COM (七星搜)</td>
+          <td>$3,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>QIXINGSOU.COM (七星搜)</td>
+          <td>$3,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>SOULAISOUQU.COM (搜来搜去)</td>
+          <td>$3,999</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
